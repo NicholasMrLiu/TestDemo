@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		189984371E545A5600C8B6E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189984361E545A5600C8B6E2 /* main.m */; };
 		1899843A1E545A5600C8B6E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189984391E545A5600C8B6E2 /* AppDelegate.m */; };
-		1899843D1E545A5600C8B6E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899843C1E545A5600C8B6E2 /* ViewController.m */; };
 		189984401E545A5600C8B6E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1899843E1E545A5600C8B6E2 /* Main.storyboard */; };
 		189984421E545A5600C8B6E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189984411E545A5600C8B6E2 /* Assets.xcassets */; };
 		189984451E545A5600C8B6E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189984431E545A5600C8B6E2 /* LaunchScreen.storyboard */; };
 		189984501E545A5600C8B6E2 /* TheLastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899844F1E545A5600C8B6E2 /* TheLastTests.m */; };
 		1899845B1E545A5600C8B6E2 /* TheLastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899845A1E545A5600C8B6E2 /* TheLastUITests.m */; };
+		189984741E545A8200C8B6E2 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189984691E545A8200C8B6E2 /* RootTabBarController.m */; };
+		189984751E545A8200C8B6E2 /* HomeMainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899846B1E545A8200C8B6E2 /* HomeMainNavController.m */; };
+		189984761E545A8200C8B6E2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899846D1E545A8200C8B6E2 /* HomeViewController.m */; };
+		189984771E545A8200C8B6E2 /* MyteamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899846F1E545A8200C8B6E2 /* MyteamViewController.m */; };
+		189984781E545A8200C8B6E2 /* ShopCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189984711E545A8200C8B6E2 /* ShopCarViewController.m */; };
+		189984791E545A8200C8B6E2 /* MemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189984731E545A8200C8B6E2 /* MemberViewController.m */; };
+		1899847F1E545CE000C8B6E2 /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899847E1E545CE000C8B6E2 /* DrawerViewController.m */; };
+		189984821E545D2200C8B6E2 /* BaseTableBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189984811E545D2200C8B6E2 /* BaseTableBarController.m */; };
+		189984851E545D4600C8B6E2 /* XBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 189984841E545D4600C8B6E2 /* XBTabBar.m */; };
+		1899848B1E545DEC00C8B6E2 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189984881E545DEC00C8B6E2 /* UMMobClick.framework */; };
+		1899848C1E545DEC00C8B6E2 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1899848A1E545DEC00C8B6E2 /* UMMobClick.framework */; };
+		1899848F1E5460B300C8B6E2 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899848E1E5460B300C8B6E2 /* MainNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +50,6 @@
 		189984361E545A5600C8B6E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		189984381E545A5600C8B6E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		189984391E545A5600C8B6E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1899843B1E545A5600C8B6E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1899843C1E545A5600C8B6E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1899843F1E545A5600C8B6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189984411E545A5600C8B6E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189984441E545A5600C8B6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,29 @@
 		189984561E545A5600C8B6E2 /* TheLastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheLastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1899845A1E545A5600C8B6E2 /* TheLastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheLastUITests.m; sourceTree = "<group>"; };
 		1899845C1E545A5600C8B6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189984681E545A8200C8B6E2 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		189984691E545A8200C8B6E2 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		1899846A1E545A8200C8B6E2 /* HomeMainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMainNavController.h; sourceTree = "<group>"; };
+		1899846B1E545A8200C8B6E2 /* HomeMainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMainNavController.m; sourceTree = "<group>"; };
+		1899846C1E545A8200C8B6E2 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1899846D1E545A8200C8B6E2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1899846E1E545A8200C8B6E2 /* MyteamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyteamViewController.h; sourceTree = "<group>"; };
+		1899846F1E545A8200C8B6E2 /* MyteamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyteamViewController.m; sourceTree = "<group>"; };
+		189984701E545A8200C8B6E2 /* ShopCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCarViewController.h; sourceTree = "<group>"; };
+		189984711E545A8200C8B6E2 /* ShopCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCarViewController.m; sourceTree = "<group>"; };
+		189984721E545A8200C8B6E2 /* MemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberViewController.h; sourceTree = "<group>"; };
+		189984731E545A8200C8B6E2 /* MemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberViewController.m; sourceTree = "<group>"; };
+		1899847C1E545B5B00C8B6E2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1899847D1E545CE000C8B6E2 /* DrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerViewController.h; sourceTree = "<group>"; };
+		1899847E1E545CE000C8B6E2 /* DrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerViewController.m; sourceTree = "<group>"; };
+		189984801E545D2200C8B6E2 /* BaseTableBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableBarController.h; sourceTree = "<group>"; };
+		189984811E545D2200C8B6E2 /* BaseTableBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableBarController.m; sourceTree = "<group>"; };
+		189984831E545D4600C8B6E2 /* XBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBTabBar.h; sourceTree = "<group>"; };
+		189984841E545D4600C8B6E2 /* XBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBTabBar.m; sourceTree = "<group>"; };
+		189984881E545DEC00C8B6E2 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
+		1899848A1E545DEC00C8B6E2 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
+		1899848D1E5460B300C8B6E2 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		1899848E1E5460B300C8B6E2 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1899848C1E545DEC00C8B6E2 /* UMMobClick.framework in Frameworks */,
+				1899848B1E545DEC00C8B6E2 /* UMMobClick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +135,30 @@
 		189984341E545A5600C8B6E2 /* TheLast */ = {
 			isa = PBXGroup;
 			children = (
+				189984861E545DEC00C8B6E2 /* UMengAnalytics-NO-IDFA */,
 				189984381E545A5600C8B6E2 /* AppDelegate.h */,
 				189984391E545A5600C8B6E2 /* AppDelegate.m */,
-				1899843B1E545A5600C8B6E2 /* ViewController.h */,
-				1899843C1E545A5600C8B6E2 /* ViewController.m */,
+				1899848D1E5460B300C8B6E2 /* MainNavigationController.h */,
+				1899848E1E5460B300C8B6E2 /* MainNavigationController.m */,
+				189984831E545D4600C8B6E2 /* XBTabBar.h */,
+				189984841E545D4600C8B6E2 /* XBTabBar.m */,
+				189984801E545D2200C8B6E2 /* BaseTableBarController.h */,
+				189984811E545D2200C8B6E2 /* BaseTableBarController.m */,
+				189984681E545A8200C8B6E2 /* RootTabBarController.h */,
+				189984691E545A8200C8B6E2 /* RootTabBarController.m */,
+				1899846A1E545A8200C8B6E2 /* HomeMainNavController.h */,
+				1899846B1E545A8200C8B6E2 /* HomeMainNavController.m */,
+				1899847D1E545CE000C8B6E2 /* DrawerViewController.h */,
+				1899847E1E545CE000C8B6E2 /* DrawerViewController.m */,
+				1899846C1E545A8200C8B6E2 /* HomeViewController.h */,
+				1899846D1E545A8200C8B6E2 /* HomeViewController.m */,
+				1899846E1E545A8200C8B6E2 /* MyteamViewController.h */,
+				1899846F1E545A8200C8B6E2 /* MyteamViewController.m */,
+				189984701E545A8200C8B6E2 /* ShopCarViewController.h */,
+				189984711E545A8200C8B6E2 /* ShopCarViewController.m */,
+				189984721E545A8200C8B6E2 /* MemberViewController.h */,
+				189984731E545A8200C8B6E2 /* MemberViewController.m */,
+				1899847C1E545B5B00C8B6E2 /* PrefixHeader.pch */,
 				1899843E1E545A5600C8B6E2 /* Main.storyboard */,
 				189984411E545A5600C8B6E2 /* Assets.xcassets */,
 				189984431E545A5600C8B6E2 /* LaunchScreen.storyboard */,
@@ -138,6 +192,31 @@
 				1899845C1E545A5600C8B6E2 /* Info.plist */,
 			);
 			path = TheLastUITests;
+			sourceTree = "<group>";
+		};
+		189984861E545DEC00C8B6E2 /* UMengAnalytics-NO-IDFA */ = {
+			isa = PBXGroup;
+			children = (
+				189984871E545DEC00C8B6E2 /* umsdk_IOS_analyics_no-idfa_v4.0.5 */,
+				189984891E545DEC00C8B6E2 /* umsdk_IOS_analyics_no-idfa_v4.1.1 */,
+			);
+			path = "UMengAnalytics-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		189984871E545DEC00C8B6E2 /* umsdk_IOS_analyics_no-idfa_v4.0.5 */ = {
+			isa = PBXGroup;
+			children = (
+				189984881E545DEC00C8B6E2 /* UMMobClick.framework */,
+			);
+			path = "umsdk_IOS_analyics_no-idfa_v4.0.5";
+			sourceTree = "<group>";
+		};
+		189984891E545DEC00C8B6E2 /* umsdk_IOS_analyics_no-idfa_v4.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				1899848A1E545DEC00C8B6E2 /* UMMobClick.framework */,
+			);
+			path = "umsdk_IOS_analyics_no-idfa_v4.1.1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +355,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1899843D1E545A5600C8B6E2 /* ViewController.m in Sources */,
+				1899847F1E545CE000C8B6E2 /* DrawerViewController.m in Sources */,
+				189984791E545A8200C8B6E2 /* MemberViewController.m in Sources */,
+				1899848F1E5460B300C8B6E2 /* MainNavigationController.m in Sources */,
+				189984741E545A8200C8B6E2 /* RootTabBarController.m in Sources */,
+				189984821E545D2200C8B6E2 /* BaseTableBarController.m in Sources */,
+				189984751E545A8200C8B6E2 /* HomeMainNavController.m in Sources */,
 				1899843A1E545A5600C8B6E2 /* AppDelegate.m in Sources */,
+				189984771E545A8200C8B6E2 /* MyteamViewController.m in Sources */,
+				189984781E545A8200C8B6E2 /* ShopCarViewController.m in Sources */,
+				189984851E545D4600C8B6E2 /* XBTabBar.m in Sources */,
+				189984761E545A8200C8B6E2 /* HomeViewController.m in Sources */,
 				189984371E545A5600C8B6E2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +514,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XCUE3XUTBU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TheLast/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.0.5",
+					"$(PROJECT_DIR)/TheLast/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.1.1",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/TheLast/TheLast/PrefixHeader.pch;
 				INFOPLIST_FILE = TheLast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manmao.com.TheLast;
@@ -438,6 +533,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XCUE3XUTBU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TheLast/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.0.5",
+					"$(PROJECT_DIR)/TheLast/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.1.1",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/TheLast/TheLast/PrefixHeader.pch;
 				INFOPLIST_FILE = TheLast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manmao.com.TheLast;

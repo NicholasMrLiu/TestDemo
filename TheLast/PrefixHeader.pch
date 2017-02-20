@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  TheLast
+//
+//  Created by apple on 17/2/15.
+//  Copyright © 2017年 刘群. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//高度
+#define kUIScreenSize [UIScreen mainScreen].bounds.size
+#define kUIScreenWidth kUIScreenSize.width
+#define kUIScreenHeight kUIScreenSize.height
+#define kNavigationBarHeight 64
+#define kTabBarHeight 49
+
+#define MM_APPBaseColor [UIColor colorWithRed:199/256.0 green:23/256.0 blue:36/256.0 alpha:1.0]
+
+#endif /* PrefixHeader_pch */

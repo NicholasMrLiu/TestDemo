@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeMainNavController.h"
+#import "HomeViewController.h"
+#import "RootTabBarController.h"
+#import "DrawerViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +20,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
+    //设置根控制器
+    RootTabBarController * rootVC = [[RootTabBarController alloc] init];
+    HomeViewController * rightVC = [[HomeViewController alloc] init];
+    DrawerViewController * drawerVC = [[DrawerViewController alloc] initWithHomeVC:rootVC rightVC:rightVC];
+    rootVC.tabBar.translucent = NO;
+    self.window.rootViewController = drawerVC;
+    
     return YES;
 }
 
