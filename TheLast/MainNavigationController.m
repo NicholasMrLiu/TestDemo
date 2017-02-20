@@ -46,6 +46,13 @@
     shadow.shadowOffset = CGSizeZero;
     textAttributes[NSShadowAttributeName] = shadow;
     
+    
+    
+    
+    
+    
+    
+    
 }
 
 -(void)popself
